@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "particles.js": "^2.0.0",
+    "tar": "^6.1.11",
     "vue-particle-line": "^0.1.4",
     "vuepress-plugin-cat": "^1.0.3",
     "vuepress-plugin-comment": "^0.7.3",
