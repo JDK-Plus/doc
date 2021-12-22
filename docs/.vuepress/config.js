@@ -113,10 +113,6 @@ module.exports = {
         htmlModules,
     },
     plugins: [ // 插件
-        [require('./plugins/love-me'), { // 鼠标点击爱心特效
-            color: '#11a8cd', // 爱心颜色，默认随机色
-            excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-        }],
         [
             'vuepress-plugin-helper-live2d',
             {
@@ -145,7 +141,7 @@ module.exports = {
             }
         ],
         ["vuepress-plugin-sakura", {
-            num: 50,  // 默认数量
+            num: 10,  // 默认数量
             show: true, //  是否显示
             zIndex: 1,   // 层级
             img: {
@@ -153,16 +149,6 @@ module.exports = {
                 httpUrl: '...'     // 绝对路径
             }
         }],
-
-        [
-            'vuepress-plugin-zooming', // 放大图片
-            {
-                selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
-                options: {
-                    bgColor: 'rgba(0,0,0,0.6)',
-                },
-            },
-        ],
         [
             'vuepress-plugin-comment', // 评论
             {
@@ -242,7 +228,15 @@ module.exports = {
                     return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
                 },
             }
-        ]
+        ],
+        [
+            'cursor-effects',
+            {
+                size: 2, // size of the particle, default: 2
+                shape: ['star'], // shape of the particle, default: 'star'
+                zIndex: 999999999, // z-index property of the canvas, default: 999999999
+            },
+        ],
     ],
 
     // configureWebpack: {
