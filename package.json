@@ -31,7 +31,10 @@
   "dependencies": {
     "particles.js": "^2.0.0",
     "tar": "^6.1.11",
+    "vue": "^2.6.14",
     "vue-particle-line": "^0.1.4",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
     "vuepress-plugin-cat": "^1.0.3",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-element-tabs": "^0.2.8",
