@@ -7,7 +7,6 @@ set -e
 
 npm config set registry https://registry.npm.taobao.org
 
-npm install highlight.js vue@2.6.14 vue-server-renderer@2.7.0 --registry https://registry.npm.taobao.org
 npm install -D vuepress --registry https://registry.npm.taobao.org
 
 npm install --registry https://registry.npm.taobao.org
