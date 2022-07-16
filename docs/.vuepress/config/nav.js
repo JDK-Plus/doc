@@ -10,6 +10,7 @@ module.exports = [
     items: [
       { text: 'spring-boot-starter-broadcast', link: '/pages/815166/' },
       { text: 'cli-plus', link: '/pages/2ba02f/' },
+      { text: 'spring-boot-starter-websocket', link: '/pages/080a71/' },
     ]
   },
   { text: '问答', link: '/pages/9cc27d/' },
