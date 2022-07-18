@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/jdk-plus.png
-heroText: JDK-PLUS
+heroText: 
 tagline: 🚀必须敢于正视，这才敢想、敢做、敢当。
 actionText: 正确的起点 →
 actionLink: /pages/8cbb63/

@@ -4,7 +4,7 @@ const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
     title: "JDK-PLUS",
-    description: '一个基于VuePress的 知识管理&博客 主题',
+    description: 'Jdk-Plus组织主站点',
     base, // '/<仓库名>/'， 默认'/'
     head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
         ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
@@ -31,7 +31,7 @@ module.exports = {
     themeConfig: { // 主题配置
         nav,
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-        logo: '/img/jdk-plus.png', // 导航栏logo
+        logo: '', // 导航栏logo
         // repo: 'JDK-Plus/doc', // 导航栏右侧生成Github链接
         searchMaxSuggestions: 10, // 搜索结果显示最大数
         lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
@@ -53,7 +53,7 @@ module.exports = {
         blogger: {
             // 博主信息，显示在首页侧边栏
             avatar: 'https://jdk.plus/img/EB-logo.png',
-            name: 'JDK-PLUS',
+            name: '委委佗佗，如山如河',
             slogan: '沉着、勇猛、有辨别、不自私。',
             show: false,
         },
